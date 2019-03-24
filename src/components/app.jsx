@@ -8,7 +8,7 @@ import cities from '../../data/cities';
 const App = () => {
   return (
     <div className="app">
-      <CityList cities={cities} />
+      <CityList />
       <ActiveCity city={cities[0]} />
     </div>
   );
