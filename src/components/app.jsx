@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="app">
       <CityList />
-      <ActiveCity city={cities[0]} />
+      <ActiveCity />
     </div>
   );
 };
