@@ -1,9 +1,14 @@
 import React from 'react';
 
+import CityList from '../containers/city_list';
+
+import cities from '../../data/cities';
+
 const App = () => {
   return (
     <div className="app">
-      <p>React + Redux starter</p>
+      <CityList cities={cities} />
+      <div className="active-city" />
     </div>
   );
 };
